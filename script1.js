@@ -7,3 +7,7 @@ request.onload=function(){
     var result = JSON.parse(request.response);
     console.log(result);
 }
+    for (const country of data) {
+      console.log("Country: ${country.name}, Flag: ${country.flags.svg}");
+
+  };
